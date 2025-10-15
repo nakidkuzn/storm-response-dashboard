@@ -1,0 +1,31 @@
+{
+  "server": {
+    "port": 3000,
+    "host": "0.0.0.0"
+  },
+  "apis": {
+    "samsara": {
+      "timeout": 10000,
+      "retryAttempts": 3
+    },
+    "sitefotos": {
+      "timeout": 10000,
+      "retryAttempts": 3
+    },
+    "smartthings": {
+      "timeout": 5000,
+      "retryAttempts": 2
+    }
+  },
+  "dashboard": {
+    "vehicleUpdateInterval": 30000,
+    "formsUpdateInterval": 60000,
+    "maxForms": 50,
+    "maxPhotos": 20
+  },
+  "displayControl": {
+    "commandDelay": 2000,
+    "defaultVolume": 15,
+    "defaultInput": "HDMI1"
+  }
+}
